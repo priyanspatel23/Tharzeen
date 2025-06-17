@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tharzen</title>
+    <link rel="icon" href="../images/favi.png">
+
+    <!-- all-min-css -->
+    <link rel="stylesheet" href="../css/all.min.css">
+
+    <!-- bootstrap link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+
+    <!-- font-family: "Roboto Condensed",serif; -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- css -->
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!-- media -->
+    <link rel="stylesheet" href="../css/media.css">
+</head>
+
+<body>
+    <a href="#car"><div class="position-fixed car">
+    </div></a>
+        <!-- MODAL -->
+     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2 class="modal-title fs-3 text-danger text-center" id="exampleModalLabel">Sign in</h2>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          
+            <div class="modal-body">
+              <form class="row g-3">
+                  <div class="col-12">
+                    <label for="inputEmail4" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4">
+                  </div>
+                  <div class="col-12">
+                    <label for="inputPassword4" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="inputPassword4">
+                  </div>
+              </form>
+              <p class="text-secondary">Forgot password? </p>
+              <button type="button" class="btn btn-outline-danger w-100 rounded-4">Sign in</button>
+            </div>
+            <div class="modal-footer pt-3">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-outline-danger">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>  
+    
+<!-- Offcanvas -->
+    <div class="offcanvas offcanvas-top col-sm-12 col-md-12 col-lg-12 d-xl-none" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+      <div class="offcanvas-header bg-black">
+        <h5 class="offcanvas-title text-white" id="offcanvasTopLabel">
+            <div class="col-3">
+                <a href="./index.html"><img src="../images/tharzen.png" alt="logo"/></a>
+            </div>
+        </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body bg-black text-white">
+       <ul class="list-unstyled">
+        <li>
+            <a href="../index.html" class="list-unstyled text-decoration-none text-danger">Home</a>
+        </li>
+        <li>
+            <a href="./aboutus.html" class="list-unstyled text-decoration-none">About us</a>
+        </li>
+        <li>
+            <a href="./services.html" class="list-unstyled text-decoration-none">Services</a>
+        </li>
+        <li>
+            <a href="./gallery.html" class="list-unstyled text-decoration-none">Gallery</a>
+        </li>
+        <li>
+            <a href="./blog.html" class="list-unstyled text-decoration-none">Blog</a>
+        </li>
+        <li>
+            <a href="./contact.html" class="list-unstyled text-decoration-none">Contact us</a>
+        </li>
+       </ul>
+      </div>
+    </div>
+
+
+
+
+    <header class="position-absolute" id="car">
+        <div class="container position-relative">
+            <div class="row">
+                <div class="col-lg-12 d-flex align-items-center">
+                    <div class="col-lg-2 col-md-3 d-flex col-4">
+                        <a href="./index.html"><img src="../images/tharzen.png" alt="logo" /></a>
+                    </div>
+                    <nav class="col-lg-8 col-md-9 d-none d-lg-block ">
+                        <ul class="d-flex m-0 justify-content-center list-unstyled">
+                            <li class="list un-l">
+                                <a href="../index.html" class="text-decoration-none">Home</a>
+                            </li>
+                            <li class="list un-l">
+                                <a href="./aboutus.html" class="text-decoration-none">About us</a>
+                            </li>
+                            <li class="list un-l">
+                                <a href="./services.html" class="text-decoration-none">Services</a>
+                            </li>
+                            <li class="list un-l">
+                                <a href="./gallery.html" class="text-decoration-none">Gallery</a>
+                                
+                            </li>
+
+                            <li class="list un-l">
+                                <a href="./blog.html" class="text-decoration-none">Blog</a>
+                            </li>
+                            <li class="list un-l">
+                                <a href="./contact.html" class="text-decoration-none">Contact us</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="cta col-lg-2 d-lg-block d-none ">
+                        <div class="col-lg-12 d-flex justify-content-end ">
+                            <a href="#exampleModal" class="text-decoration-none" data-bs-toggle="modal" data-bs-target="#exampleModal">Register Now</a>
+                        </div>
+                    </div>
+                    <div class="col-8 d-flex justify-content-end d-lg-none">
+                        <a data-bs-toggle="offcanvas" href="#offcanvasTop"  class="text-decoration-none text-secondary fw-bold d-flex justify-content-end">MENU</a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="max-img">
+            <div class="overlay d-flex align-items-center ">
+                <div class="container ">
+                    <div class="row">
+                        <div class="col-lg-12 pb-5 text-center">
+                            <div class="col-6">
+                                <ul class="list-unstyled d-flex justify-content-center">
+                                    <li class=""><a href="../index.html" class="text-decoration-none text-white">Home</a><i
+                                            class="fa-solid fa-chevron-right fa-2xs mx-2" style="color: #ffffff;"></i></li>
+                                    <li class=""><a href="./aboutus.html" class="text-decoration-none text-white">Contact us</a><i class="fa-solid fa-chevron-right fa-2xs mx-2"
+                                            style="color: #ffffff;"></i></li>
+                                </ul>
+                                <a href="./aboutus.html" class="text-decoration-none">
+                                    <h1 class="text-white display-3 fw-bold">Contact Us</h1>
+                                </a>
+                            </div>
+                            <div class="col-6"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-dark py-90">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 d-flex pb-5 flex-wrap">
+                        <div class="col-5 col-12 col-md-6 col-xl-5">
+                            <div class="thar-img"></div>
+                        </div>
+                        <div class="col-7 p-5 img-contact col-12 col-md-6 col-xl-7">
+                            <div class="col-12">
+                                <h2 class="text-danger font-f fw-normal">Contact Us</h2>
+                            </div>
+                            <form action="#" method="POST">
+                                    <div class="col-12 mt-2">
+                                        <label for="name" class="d-flex text-white-50 ps-2 pt-3 ">FULL NAME</label>
+                                        <input type="text" name="name" placeholder="Your Name" class=" w-100 border-0 border-bottom  fs-6 text-white">
+                                    </div>
+                                    <div class="col-12 mt-2">
+                                        <label for="email" class="d-flex text-white-50 ps-2 pt-3 ">EMAIL ADDERSS</label>
+                                        <input type="email" name="email" placeholder="Email" class="w-100 border-0 border-bottom  fs-6 text-white">
+                                    </div>
+                                <div class="col-12 mt-2">
+                                    <label for="subject" class="d-flex text-white-50 ps-2 pt-3 ">SUBJECT</label>
+                                    <input type="text" placeholder="subject" class="w-100 border-0 border-bottom place fs-6 text-white">
+                                </div>
+                                <div class="col-12 mt-2">
+                                    <label for="message" class="d-flex text-white-50 ps-2 pt-3 ">MESSAGE</label>
+                                    <textarea class="w-100 bg-transparent text-white" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                  </div>
+                                <div class="col-12 mt-3">
+                                    <a href="#" class="btn btn-outline-danger py-3 px-5">Send Message</a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </section>
+    </main>
+
+     <!-- footer start -->
+     <footer class="fc py-90">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 d-flex flex-wrap">
+                    <div class="col-lg-3 col-6">
+                        <h3 class="mb-3 text-white">Discover More</h3>
+                        <ul class="list-unstyled">
+                            <li class="text-white mb-2">Exclusive offers</li>
+                            <li class="text-white mb-2">Find a dealer</li>
+                            <li class="text-white mb-2">Inventory</li>
+                            <li class="text-white mb-2">Certified owned</li>
+                            <li class="text-white mb-2">Brochures</li>
+                            <li class="text-white mb-2">Roadside Assistance</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-6">
+                        <h3 class="mb-3 text-white">Informations</h3>
+                        <ul class="list-unstyled">
+                            <li class="text-white mb-2">Plequest a quote</li>
+                            <li class="text-white mb-2">Estimate a payment</li>
+                            <li class="text-white mb-2">Trade-in value</li>
+                            <li class="text-white mb-2">Leasing</li>
+                            <li class="text-white mb-2">Financing</li>
+                            <li class="text-white mb-2">Apply for financing</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-6">
+                        <h3 class="mb-3 text-white">Other Services</h3>
+                        <ul class="list-unstyled">
+                            <li class="text-white mb-2">Service and Parts</li>
+                            <li class="text-white mb-2">Mobile Apps</li>
+                            <li class="text-white mb-2">Financial Services</li>
+                            <li class="text-white mb-2">Collection Store</li>
+                            <li class="text-white mb-2">Accessories</li>
+                            <li class="text-white mb-2">Brand connect</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-6">
+                        <h3 class="mb-3 text-white">Company</h3>
+                        <ul class="list-unstyled">
+                            <li class="text-white mb-2">About Karde</li>
+                            <li class="text-white mb-2">News and Media</li>
+                            <li class="text-white mb-2">Career with ut</li>
+                            <li class="text-white mb-2">Contact us</li>
+                            <li class="text-white mb-2">Smart Service</li>
+                            <li class="text-white mb-2">Track your car</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="line-end mt-5"></div>
+                <div class="line-end"></div>
+                <div class="col-lg-12 mt-3 d-flex justify-content-center align-items-center">
+                    <p class="foot text-danger m-0 mt-4">
+                        Design By
+                        <i class="fa-solid fa-heart mx-1" style="color: #ff0000"></i>
+                        Priyans Patel
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+
+    <!-- js link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

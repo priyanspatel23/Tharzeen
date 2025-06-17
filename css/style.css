@@ -1,0 +1,332 @@
+body{
+    font-family: "Roboto Condensed", serif;
+}
+a{
+    color: white;
+}
+.py-90{
+    padding: 90px 0px;
+}
+.pt-90{
+    padding-top: 90px;
+}
+.py-110{
+    padding: 110px 0px;
+}
+.my-85{
+    margin: 85px 0px;
+}
+img{
+    width: 100%;
+}
+/* header start */
+header{
+    width: 100%;
+    padding: 8px 0px;
+    /* background: black; */
+}
+nav .list{
+    padding: 12px 24px;
+    margin: 0;
+}
+nav .list a{
+    color: white;
+}
+.cta a{
+    padding: 12px 24px;
+    border: 1px solid rgb(255, 0, 0);
+    border-radius: 25px;
+    color: #fff;
+    border: 3px solid rgb(255, 0, 0);
+    box-shadow: 0px 0px 15px rgb(255, 0, 0);
+    display: inline-block;
+}
+.cta:hover a{
+    color: rgb(255, 0, 0);
+}
+nav .list a:hover{
+    color: rgb(255, 0, 0);
+}
+.frm{
+    width: 100%;
+
+}
+.un-l{
+    background-image: linear-gradient(to right ,white , rgb(255, 0, 0));
+    background-size: 0 2px ;
+    background-position: 0 100%;
+    transition: all 0.2s ease-out;
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+.un-l:hover{
+   background-size: 100% 2px;
+}
+/* header end  */
+/* hero section start */
+.hero{
+    width: 100%;
+    height: 850px;
+    background-size: cover;
+    background-image: url('../images/full-moon-red-thar-4k-hfk5vbgrykgzw2xc.jpg');
+}
+.hero h1{
+    letter-spacing: 15px;
+}
+.line{
+    height: 2px;
+    width: 30px;
+    background-color: red;
+}
+/* hero section end */
+/* section1 start */
+.section1{
+    background-color: black;
+}
+.lo2{
+    width: 10%;
+    aspect-ratio: 1/1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.t{
+    width: 5%;
+    transform: rotate(50deg);
+    right: 5%;
+}
+/* section1 end */
+/* section2 start */
+.section2{
+    width: 100%;
+    aspect-ratio: 4/2;
+    background-image: url('../images/l13320240414100412.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.overlay{
+    background-color:  rgba(0, 0, 0, 0.829);
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+}
+.play-btn{
+    background-color: red;
+    border-radius: 50%;
+    transform: translate(-50%, 0);
+}
+.play-btn:hover i{
+    transition: all 1s;
+    transform: rotate(360deg);
+}
+/* section2 end */
+/* section3 start */
+.section3{
+    width: 100%;
+    background-size: cover;
+    background-image: url('../images/Untitled-1.jpg');
+    background-position: center;
+}
+.but{
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    transition: all 0.5s;
+}
+.but:hover{
+    color: red;
+}
+.thar-list a{
+    color: #fff;
+}
+.thar-list a{
+    transition: all 0.5s;
+}
+.thar-list:hover a{
+    color: red;
+}
+
+.line-1{
+    height: 2px;
+    width: 80px;
+    background-color: red;
+    top: 37px;
+    left: -35px;
+}
+.co{
+    background-color: #4e4e4e;
+}
+.aro{
+    padding: 60px;
+    background-color: red;
+}
+/* section3 end */
+/* section4 start */
+.section4{
+    width: 100%;
+    background-image: url('../images/speed.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+input{
+    background-color: transparent;
+    border-bottom:  2px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 25px;
+    padding: 20px 10px;
+}
+input::placeholder{
+    color: black;
+}
+input:focus,textarea:focus {
+    outline: none;
+    border-color: black;
+}
+.form{
+    background-color: rgba(255, 255, 255, 0.253);
+    z-index: 2;
+}
+.view{
+    padding: 20px 90px;
+    text-align: center ;
+    border: 1px solid red;
+    transition: all .5s;
+    color: red;
+}
+.view:hover{
+    background-color: red;
+    color: #fff;
+}
+.contact{
+    color: #4e4e4ea4;
+    font-size: 215px;
+    right:1%;
+}
+/* section4 end */
+/* section5 start */
+.section5{
+    background-color: #1f1f1f;
+}
+.frame{
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+.s5{
+    width: 10%;
+    transform: rotate(128deg);
+    left: 80%;
+}
+.card{
+    width: 100%;
+    background-color:transparent;
+}
+.news {
+    font-size: 300px;
+    color: #4e4e4e;
+    left: 295px;
+    font-weight: 700;
+    top: -90px;
+}
+/* section5 end */
+/* footer start */
+.fc{
+    background-color: #000000;
+}
+.fli{
+    padding: 10px 50px 10px 0px;
+}
+.foot{
+    font-weight: 700;
+    font-size: 20px;
+    left: 0px;
+    word-spacing: 4px;
+}
+.line-end{
+    width: 100%;
+    height: 1px;
+    background-color: #1f1f1f;
+}   
+/* footer end */
+/* about page  */
+.about-hero{
+    height: 600px;
+    background-image: url('../images/about-hero.webp');
+}
+.about-3{
+    height: 438px;
+    background-image: url('../images/about-hero.webp');
+}
+.lo3{
+    width: 40%;
+    aspect-ratio: 1/1;
+}
+.service-hero{
+    height: 600px;
+    background-image: url('../images/service-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.offcanvas-body{
+  overflow-y:visible ;
+}
+/* contatct page */
+.max-img{
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size:  cover;
+    background-position: center;
+    background-image: url('https://avatars.mds.yandex.net/i?id=d2d15e5599cff2bfe13d1290904ef8724ec34591-5886405-images-thumbs&n=13');
+}
+.thar-img{
+    background-image: url('https://i.pinimg.com/736x/bc/2d/a6/bc2da637b5608c8a613d148382d2c29d.jpg');
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.sframe{
+    width: 100px;
+    aspect-ratio: 1/1;
+    background-color: red;
+}
+.frame-2{
+    width: 80px;
+    height: 80px;
+    background-color: bisque;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.bg{
+    padding: 30px;
+    background-color: #4e4e4e;
+    z-index: 1;
+    transform: translate(-50px, -15px);
+}
+.blog-hero{
+    background-image: url('../images/blog-bg.jpg');
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.car{
+    z-index: 2;
+    bottom: 5% !important;
+    right: 0% !important;
+    background-image: url('../images/fixed.png');
+    background-repeat: no-repeat;
+    object-fit: cover;
+    width: 170px; 
+    height: 200px;
+    transform: rotate(270deg);
+}
+
+.car:hover{
+    background-image: url('../images/fix-1.png');
+    transform: rotate(270deg);
+    background-repeat: no-repeat;
+}   

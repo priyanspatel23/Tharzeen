@@ -1,0 +1,49 @@
+@media(max-width:575px){
+    .lo2 {
+        width: 65%;
+    }
+    .news {
+        font-size: 106px;
+        left: 22px;
+    }
+    .thar-img {
+        height: 500px;
+    }
+}
+@media(min-width:576px){
+    .lo2 {
+        width: 50%;
+    }
+    .news {
+        font-size: 106px;
+        left: 22px;
+    }
+    .thar-img {
+        height: 550px;
+    }
+}
+@media(min-width:768px){
+    .lo2 {
+        width: 30%;
+    }
+    .thar-img {
+        height: 600px;
+    }
+    .news {
+        font-size: 167px;
+        left: 87px;
+    }
+}
+@media(min-width:992px){
+    .lo2 {
+        width: 20%;
+    }
+}
+@media(min-width:1200px){
+    .lo2 {
+        width: 15%;
+    }
+}
+@media(min-width:1400px){
+    
+}
